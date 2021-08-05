@@ -1,0 +1,11 @@
+pipeline{
+        agent any
+            stages{
+                stage ("welcome"){
+                    steps{
+                        echo "welcome to jenkins"
+                        git branch: 'main', credentialsId: '960d65e5-0b62-4d63-9a6f-4d3bc554c1cf', url: 'https://github.com/bk018/handson_d1.git'
+                    }
+                }
+            }
+}
