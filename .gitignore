@@ -22,6 +22,11 @@ out/
 build/
 new/
 
+#files
+.classpath
+.project
+/node_module
+
 #local configuration file (sdk path, etc)
 local.properties
 
